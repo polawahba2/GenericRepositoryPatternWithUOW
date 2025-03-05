@@ -1,0 +1,59 @@
+# Visual Studio Files
+.vs/
+.vscode/
+
+# Build and Publish Outputs
+bin/
+obj/
+out/
+publish/
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and Database
+*.log
+logs/
+nohup.out
+localdb.lock
+localdb.log
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/repositories.config
+project.lock.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Configuration Files (Consider excluding secrets only)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.test.json
+secrets.json
+
+# Node.js (If using frontend in same repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider, VS Code, and other editor-specific files
+*.code-workspace
+*.swp
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+Thumbs.db
